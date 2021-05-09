@@ -1,4 +1,4 @@
-const Question = require("../../models/question");
+const Question = require("../../models/question"); //
 const getQuestion = async (req, res) => {
   const { texte, choix, reponse } = req.query;
 
